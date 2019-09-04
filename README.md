@@ -2,5 +2,4 @@
 ## MFC class in 2019
 ### by Nam
 
-* test
-1. I am happy
+* MFC = Microsoft Foundation Class
