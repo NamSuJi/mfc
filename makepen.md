@@ -4,13 +4,23 @@
 
 ## 코드
 CPoint pnt;
+#
 void CPen7Dlg::OnMouseMove(UINT nFlags, CPoint point)
+#
 {
+#
 	if (nFlags == MK_LBUTTON) {
+#
 		CClientDC dc(this);
+		#
 		dc.MoveTo(pnt);
+		#
 		dc.LineTo(point);
+		#
 	}
+	#
 	pnt = point;
+	#
 	CDialogEx::OnMouseMove(nFlags, point);
+	#
 }
